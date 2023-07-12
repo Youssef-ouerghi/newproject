@@ -1,0 +1,120 @@
+gitstructions
+1- Create a folder called learn_git_again. 
+
+2- cd into the learn_git_again folder. 
+
+3- Create a file called third.txt. 
+
+4- Initialize an empty git repository. 
+
+5- Add third.txt to the staging area. 
+
+6- Commit with the message "adding third.txt". 
+
+7- Check out your commit with git log. 
+
+8- Create another file called fourth.txt. 
+
+9- Add fourth.txt to the staging area. 
+
+10- Commit with the message "adding fourth.txt" 
+
+11- Remove the third.txt file 
+
+12- Add this change to the staging area 
+
+13- Commit with the message "removing third.txt" 
+
+14- Check out your commits using git log 
+
+15- Change your global setting to core.pager=cat - you can read more about that here https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration. 
+
+16- Write the command to list all the global configurations for git on your machine. 
+
+You can type git config --global to find out how to do this
+Quick Search
+
+1.6 Getting Started - First-Time Git Setup
+git-scm.com favicon
+git-scm
+·
+1
+8.1 Customizing Git - Git Configuration
+git-scm.com favicon
+git-scm
+·
+2
+git config | Atlassian Git Tutorial
+atlassian.com favicon
+atlassian
+·
+3
+How to set important Git config global properties - TheServerSide
+theserverside.com favicon
+theserverside
+·
+4
+How do I show my global Git configuration? - Stack Overflow
+stackoverflow.com favicon
+stackoverflow
+·
+5
+git config – How to Configure Git Settings to Improve Your Development Workflow
+freecodecamp.org favicon
+freecodecamp
+·
+6
+Answer
+Here are the instructions to complete the given tasks:
+Open your terminal and create a folder called learn_git_again by typing the following command:
+mkdir learn_git_again
+
+Change your current working directory to learn_git_again by typing the following command:
+cd learn_git_again
+
+Create a file called third.txt by typing the following command:
+touch third.txt
+
+Initialize an empty git repository by typing the following command:
+git init
+
+Add third.txt to the staging area by typing the following command:
+git add third.txt
+
+Commit the changes with the message "adding third.txt" by typing the following command:
+git commit -m "adding third.txt"
+
+Check out your commit with git log by typing the following command:
+git log
+
+This will display the commit history. You should see the commit message "adding third.txt" in the log.
+Create another file called fourth.txt by typing the following command:
+touch fourth.txt
+
+Add fourth.txt to the staging area by typing the following command:
+git add fourth.txt
+
+Commit the changes with the message "adding fourth.txt" by typing the following command:
+git commit -m "adding fourth.txt"
+
+Remove the third.txt file by typing the following command:
+rm third.txt
+
+Add this change to the staging area by typing the following command:
+git add third.txt
+
+Commit the changes with the message "removing third.txt" by typing the following command:
+git commit -m "removing third.txt"
+
+Check out your commits using git log by typing the following command:
+git log
+
+This will display the commit history. You should see the three commit messages in the log.
+Change your global setting to core.pager=cat by typing the following command:
+git config --global core.pager cat
+
+This will change the global setting for the pager to cat.
+To list all the global configurations for git on your machine, type the following command:
+git config --global --list
+
+This will display a list of all the global configurations for git on your machine.
